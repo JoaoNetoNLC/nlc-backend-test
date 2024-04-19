@@ -26,12 +26,8 @@ With the dependencies installed, let's now upload the containers, run the comman
 
 The project in question is based on the architecture of our real project, when looking at the code you will notice that it is a resource called User and it is a Restfull application (or at least it should). The system is incomplete by nature so you have the opportunity to prove your knowledge by fixing errors. I will leave below some implementations that you need to do, but I will leave some errors without comments so that you can correct them without having to say what the error is. A priori what you need to do is:
 
-- The user's delete method is not working, you need to identify the reason and fix it;
-- The method that lists only one user is not working and needs to identify the bug and fix;
-- When creating the user, the system is allowing a name field with maximum of 10 characters when in reality it should be 255;
-- In the user list, the created_at field is not appearing;
+- [ ]  The user's delete method is not working, you need to identify the reason and fix it;
+- [ ]  The method that lists only one user is not working and needs to identify the bug and fix;
+- [ ]  When creating the user, the system is allowing a name field with maximum of 10 characters when in reality it should be 255;
+- [ ]  In the user list, the created_at field is not appearing;
 
-[] asd
-() asd2
-( ) asd3
-[ ] asd4
