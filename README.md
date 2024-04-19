@@ -24,6 +24,10 @@ With the dependencies installed, let's now upload the containers, run the comman
 
 ## To do 
 
+Let's divide the challenge into two parts, in the first part you have to maintain existing code while in the second part you will have to build the logic from scratch, if you have difficulty solving one part or another of the challenge, as you you solve the challenges, mark the checkboxes with an.
+
+### first part: fixing bugs
+
 The project in question is based on the architecture of our real project, when looking at the code you will notice that it is a resource called User and it is a Restfull application (or at least it should). The system is incomplete by nature so you have the opportunity to prove your knowledge by fixing errors. I will leave below some implementations that you need to do, but I will leave some errors without comments so that you can correct them without having to say what the error is. A priori what you need to do is:
 
 - [ ]  The user's delete method is not working, you need to identify the reason and fix it;
@@ -31,3 +35,15 @@ The project in question is based on the architecture of our real project, when l
 - [ ]  When creating the user, the system is allowing a name field with maximum of 10 characters when in reality it should be 255;
 - [ ]  In the user list, the created_at field is not appearing;
 
+### second part: creating a new resource
+
+You now need to create a new resource. The field is address, this table has a one-to-many relationship with the users table (that is, a user can have one or more addresses). The address table must have fields such as: City, State, Country, Code and Complement. Given the structure you need to do:
+
+- [ ]  Create the database structure using migrations;
+- [ ]  Populate the data using seeders and factories;
+- [ ]  Create the modal with the appropriate relationships, both the Model Address needs to have the relationship with the User and vice versa;
+- [ ]  Create service layer to maintain the system's business rules;
+- [ ]  Create the controller layer;
+- [ ]  Create endpoints;
+- [ ]  Create data validation layer;
+- [ ]  Create data display layer;
